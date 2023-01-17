@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Mikus",
+        "email": "mikuskukainis@gmail.com",
+        "date": "2022-12-30",
+        "questions": "Hello"
+    },
+    {
+        "name": "Zane",
+        "email": "zaneantakukaine@gmail.com",
+        "date": "2023-01-13",
+        "questions": "Come to Spain with me?"
+    }
+]
