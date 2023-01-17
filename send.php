@@ -47,8 +47,8 @@ if(isset($_POST["submit"])){
     $mail->Port = 465;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->SMTPAuth = true;
-    $mail->Username = 'mikuskukainis@gmail.com';
-    $mail->Password = 'kfcdtzzntscudqzt';
+    $mail->Username = '@gmail.com';
+    $mail->Password = '';
     
     $mail->setFrom('mikuskukainis@gmail.com');
     $mail->addReplyTo($_POST["email"]);
