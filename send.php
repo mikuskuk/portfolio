@@ -50,7 +50,7 @@ if(isset($_POST["submit"])){
     $mail->Username = '@gmail.com';
     $mail->Password = '';
     
-    $mail->setFrom('mikuskukainis@gmail.com');
+    $mail->setFrom('@gmail.com');
     $mail->addReplyTo($_POST["email"]);
 
     $mail->addAddress($_POST["email"]);
